@@ -1,0 +1,11 @@
+# square
+
+myList = [10, 8, 4, 2]
+
+newList = list(map(lambda num: num**2, myList))
+print(newList)
+
+# Sorting list
+a = [(0, 3), (4, 3), (10, 1), (9, 9)]
+a.sort(key=lambda x: x[0])
+print(a)
